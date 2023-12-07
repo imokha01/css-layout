@@ -82,7 +82,6 @@ ul > li:nth-child(1) > a {
 .heading-text {
     display: grid;
     grid-template-columns:220px 1fr 1fr 220px;
-    gap: 5px;
     margin-top: 2em;
     font-size: 1rem;
 
@@ -93,18 +92,21 @@ ul > li:nth-child(1) > a {
 }
 
 .heading-text p {
-    font-size: 1em;
-    padding: 0 20px 32px 60px;
-    /* margin: 0 0 0 10px; */
+    font-size: 1.12em;
+    
+    margin: 0 0 0 5px;
     text-align: left;
     max-width: 50em;
     color: var(--sec-grey);
     line-height: 1.5em;
 }
+#para1 {
+    padding: 0 60px 32px 10px;
+}
 
 #para2 {
-    padding-left: 20px;
-    padding-right: 60px;
+    padding-left: 0px;
+    padding-right: 50px;
 }
 
         /* Second Home page section  */
@@ -203,7 +205,39 @@ select {
 }
 
 
+/* Third Home page section */
+.brands img {
+    width:7.5em;
+    height: fit-content;
+}
 
+.home-page3 {
+    display: grid;
+    grid-template-columns:220px 1fr 1fr 300px;
+}
 
+.home-page3 > div  {
+    grid-column: 2 / 3; 
+}
 
+.home-page3 .brands {
+    grid-column: 3 / 4;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(50px, 1fr));
+    column-gap: .5em;
+    row-gap: 4.5em ;
+    margin-bottom: 2.5em;
+    font-size: smaller;
+}
 
+.home-page3 .brands > img:nth-last-child(3) {
+    margin-top: -25px;
+}
+
+.home-page3 div > p {
+   font-size:  1.625em;
+   font-family: var(--work-sans);
+   color: var(--patients-color);
+   font-weight: 300;
+   padding: 0 2em;
+}
