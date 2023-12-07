@@ -2,8 +2,12 @@
     --text-color: #00b39b;
     --text-gray: #ababab;
     --sec-grey: #747474;
+    --patients-color: #00ccb1;
+    --doctors-color: #3d83df;
+    --clinics-color: #1b2734;;
     --roboto : 'Roboto', sans-serif;
     --work-sans: 'Work Sans', sans-serif;
+    
 }
 
 
@@ -11,10 +15,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-html, body {
-    font-family:  Helvetica,  Arial, sans-serif;
 }
 
         /* NAVIGATION BAR */
@@ -40,6 +40,7 @@ ul {
     padding: 0.8rem;
 
 }
+
 ul li {
     list-style-type:none;
     display: inline;
@@ -78,8 +79,6 @@ ul > li:nth-child(1) > a {
     margin-top: .5em;
 }
 
-
-
 .heading-text {
     display: grid;
     grid-template-columns:220px 1fr 1fr 220px;
@@ -93,10 +92,9 @@ ul > li:nth-child(1) > a {
     grid-column: 2 / 3;
 }
 
-
 .heading-text p {
     font-size: 1em;
-    padding: 0 20px 0 60px;
+    padding: 0 20px 32px 60px;
     /* margin: 0 0 0 10px; */
     text-align: left;
     max-width: 50em;
@@ -108,4 +106,104 @@ ul > li:nth-child(1) > a {
     padding-left: 20px;
     padding-right: 60px;
 }
+
+        /* Second Home page section  */
+.container-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    line-height: 1.2;
+    width: 70%;
+    font-size:1.5em;
+    margin: 1.7rem auto 2.5rem;
+    font-weight: 300;
+
+}
+
+
+.patient,
+.doctors,
+.clinics {
+    display: flex;
+    flex-direction: column;
+    padding: 2em 1.5em 0;
+    justify-content: space-between;
+    height: 345px;
+    font-family: var(--work-sans);
+    border-radius: 10px;
+    color: #ffff;
+    width: fit-content;
+}
+
+
+.patient {
+    background-color: var(--patients-color);   
+}
+
+.doctors {
+    background-color: var(--doctors-color) ;
+}
+
+.doctors .tag {
+    width: fit-content;
+}
+
+.clinics {
+    background-color: var(--clinics-color);
+}
+
+.clinics .tag {
+    margin: 0.625rem 0 0 0;
+}
+
+.clinics .tag + p {
+    margin-top: 0.8rem;
+}
+
+.clinics select {
+    margin-top: 3rem;
+}
+
+.clinics br + select {
+    margin-top: -25px;
+    margin-bottom: 30px;
+}
+
+.tag {
+    font-size: 1.5em;
+    font-weight: 400;
+    margin: 0.3em 0;
+}
+
+.tag-description {
+    font-size: 1.3125rem;
+}
+
+select {
+    font-size: 1.3125rem;
+    border: none;
+    font-family: var(--work-sans);
+    font-weight: 100;
+    margin-top: 3.5em;
+    color: white;
+    text-decoration: underline;
+}
+
+.patient select {
+    background-color: var(--patients-color);
+}
+
+.doctors select {
+    background-color: var(--doctors-color);
+}
+
+.clinics select {
+    background-color: var(--clinics-color);
+}
+
+
+
+
+
 
