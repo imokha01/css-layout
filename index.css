@@ -349,6 +349,7 @@ select {
     font-weight: 300;
     margin-top: 70px;
     margin-bottom: 10px;
+    text-align: center;
     color: var(--text-color);
 }
 
