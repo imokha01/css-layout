@@ -248,13 +248,12 @@ select {
     height: 40px;
 }
 
-.aboutUs-container {
+.aboutUs-container, .aboutUS {
     background-color: var(--aboutUs-color);
     display: flex;
 }
 
 .aboutUS {
-    display: flex;  
     margin-left: 13.75em;
     padding-top: 3em;
 }
@@ -274,7 +273,7 @@ select {
 
 .section1 p {
     font-family: var(--work-sans);
-    padding: 20px 128px 50px 0;
+    padding: 20px 100px 50px 0;
     margin: 0 0 0.625rem;
     font-size: 15px;
     line-height: 1.5;
@@ -333,4 +332,122 @@ select {
     font-family: var(--roboto);
     padding: 10px 2px;
 }
+
+/* ### Department Page styling ### */
+
+.department-header {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.department-header h3 {
+    font-size: 2em;
+    font-family: var(--work-sans);
+    font-weight: 300;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    color: var(--text-color);
+}
+
+.department-header p {
+    font-family: var(--roboto);
+    font-weight: 400;
+    color: var(--sec-grey);
+    padding: 0 25rem 0 25rem; 
+    line-height: 1.7;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 100px 150px 100px 150px;
+}
+
+.tag {
+    display: flex;
+    font-family: var(--roboto);
+    justify-content: space-between;
+}
+
+.tag p {
+    padding: 0 20px;
+    color: var(--sec-grey);
+    font-size: medium;
+}
+
+
+.tag button {
+    font-size: .45em;
+    padding: 10px;
+    margin-right: 20px;
+    background-color: var(--doctors-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.tag button:hover {
+    cursor: pointer;
+}
+
+
+.department-footer {
+    text-align: center;
+    margin: auto;
+    font-family: var(--work-sans);
+}
+
+
+.department-footer h1 {
+    font-weight: 300;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.department-footer button {
+    font-family: var(--roboto);
+    border-radius: 4px;
+    font-size: .75em;
+    padding: 0.75rem 0.875rem;
+    border: none;
+    background-color: var(--doctors-color);
+    color: #fff;
+    margin-bottom: 2em;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+
+.department-footer button:hover {
+    cursor: pointer;
+}
+
+footer {
+    font-size: 0.75rem;
+    color: #ababab;
+    font-family: var(--roboto);
+    margin-top: 6rem;
+}
+
+footer p,
+footer p a{
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer p:nth-last-child(1) {
+    padding-top: 2em;
+    color: #ababab;
+    margin-bottom: 1em;
+}
+
 
