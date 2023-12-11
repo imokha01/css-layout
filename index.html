@@ -29,118 +29,188 @@
 
     <!-- First home page section-->
     <div class="wrapper">
-        <img src="./assets/doclogo.png" alt="docplanner logo">
-        <p class="heading">
-             Making the healthcare experience more human
+      <img src="./assets/doclogo.png" alt="docplanner logo" />
+      <p class="heading">Making the healthcare experience more human</p>
+      <div class="heading-text">
+        <p id="para1">
+          We want patients to find the perfect doctor and book an appointment in
+          the most easy way. The patient journey should be enjoyable, and that's
+          why we are always next to them: to help them find the best possible
+          care. Anytime, anywhere.
         </p>
-         <div class="heading-text">
-            <p id="para1">
-                We want patients to find the perfect doctor and book an appointment in
-                the most easy way. The patient journey should be enjoyable, and that's
-                why we are always next to them: to help them find the best possible
-                care. Anytime, anywhere.
-            </p>
-            <p id="para2">
-                We also help doctors to better manage their practice and build their
-                online reputation. With our integrated end-to-end solution, doctors
-                are able not only to improve their online presence, but also to devote
-                their time to what really matters: their patients.
-            </p>
-        </div>
+        <p id="para2">
+          We also help doctors to better manage their practice and build their
+          online reputation. With our integrated end-to-end solution, doctors
+          are able not only to improve their online presence, but also to devote
+          their time to what really matters: their patients.
+        </p>
+      </div>
     </div>
     <!-- Second Home page section -->
     <div class="container-wrapper">
-        <div class="patient">
-            <div class="content">
-                <img src="./assets/icon-patients.svg" alt="patient">
-                <p class="tag"> For patients </p>
-                <p  class="tag-description">Find a doctor, book a visit and solve any health-related doubt</p>
-                 <select name="patients" id="select-patient">
-                    <option value="#">Choose Country</option>
-                    <option value="#">Argentina</option>
-                    <option value="#"> Brazil</option>
-                    <option value="#"> Chile</option>
-                    <option value="#">Colombia</option>
-                    <option value="#">Czech</option>
-                    <option value="#">Germany</option>
-                    <option value="#">Italy</option>
-                    <option value="#">Mexico</option>
-                    <option value="#">Peru</option>
-                    <option value="#">Poland</option>
-                    <option value="#">Portugal</option>
-                    <option value="#">Spain</option>
-                    <option value="#">Turkey</option>
-                 </select>
-            </div>
+      <div class="patient">
+        <div class="content">
+          <img src="./assets/icon-patients.svg" alt="patient" />
+          <p class="tag">For patients</p>
+          <p class="tag-description">
+            Find a doctor, book a visit and solve any health-related doubt
+          </p>
+          <select name="patients" id="select-patient">
+            <option value="#">Choose Country</option>
+            <option value="#">Argentina</option>
+            <option value="#">Brazil</option>
+            <option value="#">Chile</option>
+            <option value="#">Colombia</option>
+            <option value="#">Czech</option>
+            <option value="#">Germany</option>
+            <option value="#">Italy</option>
+            <option value="#">Mexico</option>
+            <option value="#">Peru</option>
+            <option value="#">Poland</option>
+            <option value="#">Portugal</option>
+            <option value="#">Spain</option>
+            <option value="#">Turkey</option>
+          </select>
         </div>
-        <div class="doctors">
-            <div class="content">
-                <img src="./assets/icon-doctors.svg" width="24px" height="24px" alt="doctors">
-                <p class= "tag"> For doctors </p>
-                <p class="tag-description">Save time managing visits and cut no-shows by half</p>
-                 <select name="doctors" id="select-doctors">
-                    <option value="#">Choose Country</option>
-                    <option value="#">Argentina</option>
-                    <option value="#"> Brazil</option>
-                    <option value="#"> Chile</option>
-                    <option value="#">Colombia</option>
-                    <option value="#">Czech</option>
-                    <option value="#">Germany</option>
-                    <option value="#">Italy</option>
-                    <option value="#">Mexico</option>
-                    <option value="#">Peru</option>
-                    <option value="#">Poland</option>
-                    <option value="#">Portugal</option>
-                    <option value="#">Spain</option>
-                    <option value="#">Turkey</option>
-                 </select>
-            </div>
+      </div>
+      <div class="doctors">
+        <div class="content">
+          <img
+            src="./assets/icon-doctors.svg"
+            width="24px"
+            height="24px"
+            alt="doctors"
+          />
+          <p class="tag">For doctors</p>
+          <p class="tag-description">
+            Save time managing visits and cut no-shows by half
+          </p>
+          <select name="doctors" id="select-doctors">
+            <option value="#">Choose Country</option>
+            <option value="#">Argentina</option>
+            <option value="#">Brazil</option>
+            <option value="#">Chile</option>
+            <option value="#">Colombia</option>
+            <option value="#">Czech</option>
+            <option value="#">Germany</option>
+            <option value="#">Italy</option>
+            <option value="#">Mexico</option>
+            <option value="#">Peru</option>
+            <option value="#">Poland</option>
+            <option value="#">Portugal</option>
+            <option value="#">Spain</option>
+            <option value="#">Turkey</option>
+          </select>
         </div>
-        <div class="clinics">
-            <img src="./assets/icon-clinics.svg" width="24" height="24" alt="clinics">
-            <p class= "tag"> For Clinics</p>
-            <p class="tag-description">Deliver an exceptional patient experience in your clinic</p>
-            <br>
-            <select name="clinics" id="select-specialists">
-                <option value="#">2 to 20 specialists</option>
-                <option value="#">Brazil</option>
-                <option value="#">Czech</option>
-                <option value="#">Italy</option>
-                <option value="#">Mexico</option>
-                <option value="#">Poland</option>
-                <option value="#">Spain</option>
-                <option value="#">Turkey</option>
-            </select> <br>
-            <select name="more-specialist" id="select-more-specialist">
-                <option value="#">More than 20 specialists</option>
-                <option value="#">Brazil</option>
-                <option value="#">Italy</option>
-                <option value="#">Mexico</option>
-                <option value="#">Poland</option>
-                <option value="#">Spain</option>
-            </select>
-        </div>
-    </div>  
+      </div>
+      <div class="clinics">
+        <img
+          src="./assets/icon-clinics.svg"
+          width="24"
+          height="24"
+          alt="clinics"
+        />
+        <p class="tag">For Clinics</p>
+        <p class="tag-description">
+          Deliver an exceptional patient experience in your clinic
+        </p>
+        <br />
+        <select name="clinics" id="select-specialists">
+          <option value="#">2 to 20 specialists</option>
+          <option value="#">Brazil</option>
+          <option value="#">Czech</option>
+          <option value="#">Italy</option>
+          <option value="#">Mexico</option>
+          <option value="#">Poland</option>
+          <option value="#">Spain</option>
+          <option value="#">Turkey</option>
+        </select>
+        <br />
+        <select name="more-specialist" id="select-more-specialist">
+          <option value="#">More than 20 specialists</option>
+          <option value="#">Brazil</option>
+          <option value="#">Italy</option>
+          <option value="#">Mexico</option>
+          <option value="#">Poland</option>
+          <option value="#">Spain</option>
+        </select>
+      </div>
+    </div>
     <!-- Third Home page Section -->
     <div class="home-page3">
-        <div>
-            <p>We are a global
-                <br>
-                 company 
-                 <br>
-                 with local culture</p>
+      <div>
+        <p>
+          We are a global
+          <br />
+          company
+          <br />
+          with local culture
+        </p>
+      </div>
+      <div class="brands">
+        <img src="./assets/znanylekarz.png" alt="znanylekarz" />
+        <img src="./assets/Doctoralia.png" alt="Doctoralia" />
+        <img src="./assets/MioDottore.png" alt="MioDottore" />
+        <img src="./assets/doktortakvimi.png" alt="doktortakvimi" />
+        <img src="./assets/znanylekarz.png" alt="znanylekarz" />
+        <img src="./assets/logo-jameda.svg" alt="jameda" />
+        <img src="./assets/logo-tuotempo.svg" alt="tuotempo" />
+        <img
+          src="./assets/logo-gipo-primary.svg"
+          alt="gipo"
+          style="height: 55px"
+        />
+        <img
+          src="./assets/logo-clinicloud.svg"
+          alt="clinicloud"
+          style="height: 40px"
+        />
+        <img src="./assets/logo-feegow.svg" alt="feegow" style="height: 40px" />
+      </div>
+    </div>
+
+    <!-- ###### About US ####### -->
+    <div class="aboutUs-container">
+      <div class="aboutUS">
+        <div class="section1">
+          <h2>The World's biggest healthcare platform</h2>
+          <p>
+            We work from 9 offices all over the world, bringing Docplanner Group
+            to life in 13 countries.
+          </p>
+          <img src="./assets/logocropped.png" alt="background logo" />
         </div>
-        <div class="brands">
-            <img src="./assets/znanylekarz.png" alt="znanylekarz">
-            <img src="./assets/Doctoralia.png" alt="Doctoralia">
-            <img src="./assets/MioDottore.png" alt="MioDottore">
-            <img src="./assets/doktortakvimi.png" alt="doktortakvimi">
-            <img src="./assets/znanylekarz.png" alt="znanylekarz">
-            <img src="./assets/logo-jameda.svg" alt="jameda">
-            <img src="./assets/logo-tuotempo.svg" alt="tuotempo">
-            <img src="./assets/logo-gipo-primary.svg" alt="gipo" style="height: 55px;">
-            <img src="./assets/logo-clinicloud.svg" alt="clinicloud" style="height: 40px;">
-            <img src="./assets/logo-feegow.svg" alt="feegow" style="height: 40px;">
+        <div class="section2">
+          <div class="box-wrapper1">
+            <div class="box1">
+              <img src="./assets/flag.png" alt="flag">
+              <h3>Leader in 13 countries</h3>
+              <p>
+                Poland, Brazil, Mexico, Spain, Italy, Germany, Turkey, Colombia,
+                Czech Republic, Portugal, Argentina, Peru and Chile
+              </p>
+            </div>
+            <div class="box2">
+              <img src="./assets/patients.png" alt="icon-patients" style="height: 20px;">
+              <h3>90,000,000 patients</h3>
+              <p>visit our websites each month</p>
+            </div>
+          </div>
+          <div class="box-wrapper2">
+            <div class="box3">
+              <img src="./assets/visits.png" alt="visits">
+              <h3>15,000,000 appointments</h3>
+              <p>booked last month</p>
+            </div>
+            <div class="box4">
+              <img src="./assets/doctors.png" alt="doctors">
+              <h3>210,000 active doctors</h3>
+              <p>trust our solutions</p>
+            </div>
+            
+          </div>
+        
+          </div>
         </div>
     </div>
   </body>
